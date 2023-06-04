@@ -1,0 +1,7 @@
+[workspace]
+members = ["encoder_lib", "encoder_ui"]
+resolver = "2"
+
+[workspace.dependencies]
+thiserror = "1"
+encoder_lib = { path = "./encoder_lib" }
