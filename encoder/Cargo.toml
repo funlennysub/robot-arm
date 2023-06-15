@@ -1,7 +1,14 @@
 [workspace]
-members = ["encoder_lib", "encoder_ui"]
+members = [
+    "encoder_lib",
+    "encoder_ui",
+    "encoder_lib/encoder_proc_macro",
+    "logger",
+]
 resolver = "2"
 
 [workspace.dependencies]
 thiserror = "1"
 encoder_lib = { path = "./encoder_lib" }
+encoder_proc_macro = { path = "./encoder_lib/encoder_proc_macro" }
+logger = { path = "./logger" }

@@ -14,3 +14,5 @@ egui-notify = { git = "https://github.com/ItsEthra/egui-notify", rev = "bc5eb67d
 egui_grid = "0.2.0"
 egui_extras = "0.22.0"
 poll-promise = "0.2.0"
+chrono = "0.4.26"
+logger.workspace = true

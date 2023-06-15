@@ -1,8 +1,8 @@
-mod app;
-mod error;
-
 use app::App;
 use eframe::epaint::vec2;
+
+mod app;
+mod error;
 
 pub(crate) type Result<T> = std::result::Result<T, error::Error>;
 
